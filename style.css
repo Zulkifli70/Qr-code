@@ -6,14 +6,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  margin: 0 auto;
 }
 .qr-card {
   background-color: white;
   border-radius: 5px;
   text-align: center;
-  width: 300px;
-  height: fit-content;
+  width: 350px;
   padding: 20px;
 }
 .qr-card img {
@@ -22,8 +21,7 @@ body {
   height: auto;
 }
 .qr-card-content {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px 0;
 }
 .qr-card h1 {
   font-family: "Outfit", sans-serif;
